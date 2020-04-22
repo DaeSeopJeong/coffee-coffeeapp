@@ -54,7 +54,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'admin18acr'
-        repository: 'coffee-coffeeapp'
+        repository: 'coffeeapp'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
     - task: Maven@3
@@ -83,7 +83,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'admin18acr'
-        repository: 'coffeecoffeeapp'
+        repository: 'coffeeapp'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
     - task: Docker@2
