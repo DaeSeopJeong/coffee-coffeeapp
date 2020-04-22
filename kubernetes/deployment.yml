@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: coffeeapp
-          image:  user29acr1.azurecr.io/coffeeapp:latest
+          image:  admin18acr.azurecr.io/coffeeapp:latest
           ports:
             - containerPort: 8080
           readinessProbe:
